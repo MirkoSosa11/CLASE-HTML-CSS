@@ -1,0 +1,232 @@
+/*font-family: 'Nunito', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+*/
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto Condensed';
+}
+
+header {
+    height: 86.55px;
+    width: 100%;
+    background-color: #cead5a;
+    padding: 0px;
+    margin: 0px;
+    padding-left: 30px;
+    padding-right: 30px;
+    position: fixed;
+}
+
+header img {
+    width: 200px;
+    float: right;
+}
+
+header nav {
+    height: 86.55px;
+    float: left;
+    margin-top: 15px;
+}
+
+header nav ul li {
+    list-style-type: none;
+    float: left;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    padding: 20px;
+    display: inline-block;
+    color: white;
+    font-family: "Nunito";
+}
+
+header nav ul li a:hover {
+    color: #102139;
+    font-weight: bold;
+}
+
+aside {
+    clear: both;
+    width: 35%;
+    padding: 86.55px 20px 20px 20px;
+    border-right: 3px solid #cead5a;
+    float: left;
+    margin-top: 30px;
+}
+
+aside h1 {
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 10px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+aside nav ul li {
+    list-style-type: none;
+    margin-bottom: 20px;
+    font-size: 30px;
+    border-bottom: 2px solid #102139;
+}
+
+aside nav ul li a {
+    text-decoration: none;
+    color: #cead5a;
+}
+
+aside nav ul li:hover,
+aside nav ul li a:hover {
+    border-bottom: 2px solid #cead5a;
+    color: #102139;
+}
+
+aside form {
+    width: 100%;
+    padding: 20px;
+    border: solid #102139;
+    border-radius: 10px;
+    background-color: #700404;
+}
+
+aside form h1 {
+    text-align: center;
+    padding-bottom: 10px;
+    letter-spacing: 2px;
+    color: white;
+}
+
+aside form input,
+aside form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    background-color: #cead5a;
+    color: black;
+}
+
+aside form textarea {
+    height: 80px;
+}
+
+::placeholder {
+    color: black;
+}
+
+aside form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #cead5a;
+    border: none;
+    cursor: pointer;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+aside form button:hover {
+    background-color: white;
+}
+
+aside form input:focus,
+aside form textarea:focus {
+    background-color: white;
+}
+
+main {
+    width: 65%;
+    float: left;
+    padding: 86.55px 20px 20px 20px;
+}
+
+.primeraseccion{
+    display: flex;
+}
+
+main section .card {
+    width: 33.3%;
+    margin: 10px;
+    border: 3px solid #102139;
+    box-shadow: 0px 10px 10px 0px rgba(206, 173, 90, 0.7);
+    clear: both;
+    float: left;
+}
+
+
+main section.card,
+.card-imagen {
+    background-image: url(./Pelota.jpg);
+    height: 280px;
+    background-size: cover;
+}
+
+main section .card .descripción {
+    padding: 20px;
+    font-family: "Roboto Condensed";
+}
+
+main section .card button {
+    width: 100%;
+    border: none;
+    padding: 10px;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+main section .card .precio {
+    background: #700404;
+    width: 20%;
+    color: white;
+    font-size: 20px;
+
+}
+
+main section .card button:hover {
+    background-color: #102139;
+    color: #cead5a;
+}
+
+main h2 {
+    color: #cead5a;
+    border-bottom: 3px solid #cead5a;
+}
+
+main h2:hover {
+    color: black;
+    cursor: pointer;
+}
+
+footer {
+    clear: both;
+    width: 100%;
+    background-color: #cead5a;
+    margin: 0px;
+    padding: 25px;
+}
+
+footer div {
+    width: 100%;
+}
+
+footer div span {
+    float: right;
+}
+
+footer div a {
+    font-family: 'Nunito';
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+footer div a:hover {
+    color: #700404;
+    cursor: pointer;
+}
